@@ -1,0 +1,34 @@
+.table__tableCell {
+    border: 1px solid rgb(5, 129, 15);
+    text-align: center;
+    padding: 20px;
+    color: rgb(23, 61, 7);
+
+
+}
+
+.table{
+    border-collapse: collapse;
+    width: 100%;
+    box-shadow:
+        -25px -20px 16px 0px #5ABA2A,
+        -25px 20px 16px 0px #5ABA2A;
+}
+
+
+.table__tableHeader {
+    background-color: rgb(26, 185, 39);
+    color: rgb(0, 0, 0);
+}
+
+.table__tableCell:hover {
+    background-color: rgb(19, 255, 10);
+}
+
+.table__tableCaption{
+    caption-side: top;
+    text-align: left;
+    font-size: xx-large;
+    font-weight: bold;
+    color: rgb(23, 61, 7);
+}

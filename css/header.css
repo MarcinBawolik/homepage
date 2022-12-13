@@ -1,0 +1,8 @@
+.header_header {
+    color: hsl(260, 33%, 4%);
+    background-color: rgb(227, 237, 240);
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    box-shadow: 19px 12px 24px 0px rgba(26, 26, 117, 1);
+    max-width: 530px;
+    text-align: center;
+}

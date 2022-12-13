@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja pierwsza strona</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <script defer src="js/scrip.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+</head>
+
+<body class="body">
+    
+        <button class="button js-button">włącz <span class="Change">ciemny</span> motyw</button>
+        <nav class="navigation">
+            <ul class="navigation__UnorderedList">
+                <li class="navigation__ListItem">
+                    <a class="navigation__Links" href="#FirstSection">Pilka nozna</a>
+                </li>
+                <li class="navigation_ListItem">
+                    <a class="navigation__Links" href="#SecondSection">Studia</a>
+                </li>
+                <li class="navigation_ListItem">
+                    <a class="navigation__Links" href="#ThirdSection">zainteresowania</a>
+                </li>
+
+            </ul>>
+        </nav>
+    
+
+    
+<header class="header">
+    <h1 class="header__header js-header__header">Wydarzenia z moich ostatnich lat</h1>
+    <p><button class="header__button js-header__button">zmien kolor nagłówka</button></p><br>
+</header>
+    <img class="image" width=400 height=560 src="images/Marcin.jpg" alt="zdjęcie z wakacji">
+
+    <main class="main">
+        <section class="Section Section--First" id="FirstSection">
+            <h2 class="Section__header js-Section__header">Piłka Nożna</h2>
+            <button class="Section__button js-Section__button-1">usuń druginaglowek</button>
+            <div class="Section__TextConteiner">
+                <p>Gram w piłke od 6 roku życia, <i>(Mam 22 lata)</i>większość czasu bo aż 10 lat grałem w miescowym
+                    klubie
+                    <strong>Kosa
+                        Konstancin</strong>.<br> Następnie rok spędziłem w <strong>Rakowie Częstochowa</strong>, wtedy
+                    również
+                    zadebiutowałem w Kadrze Polski do
+                    lat
+                    17.<br>Kolejnym klubem był <strong>Ursus Warszawa</strong>, w którym nie pograłem długo bo nastała
+                    pandemia,
+                    z
+                    Ursusa przeniosłem
+                    sie do <strong>Olimpii Elbląg.</strong><br> W Elblagu mieszkałem dwa lata <i>(jeżeli nigdy tam nie
+                        byłaś/eś
+                        gorąco polecam
+                        odwiedzić starówke) </i><br>Po Elblągu przeniosłem się do <strong>Legionovi Legionowo</strong> i
+                    aktualnie
+                    gram w tym klubie.
+                </p>
+            </div>
+        </section>
+        <section class="Section" id="SecondSection">
+            <h2 class="Section__header Section__header--lighter">Studia</h2>
+            <button class="section__button section__button-2 js-section__button-2">Naciśnij po przezytaniu wszystkiego :)</button>
+            <div class="Section__TextConteiner Section__TextConteiner-2">
+                <p>Cztery lata temu zapisałem się na studia stacjonarne na kierunku Ekonomicznym na uczelni
+                    <strong>SGGW</strong>.Zaliczyłem pierwszy rok, w trakccie drugiego wyjechałem do Elbląga i wziałem
+                    urlop
+                    dziekański na dwa lata. Po powrocie z Elbląga zacząłem studia od 3 semestru.<br>W listopadzie
+                    zacząłem
+                    uczyć
+                    sie
+                    z youcode i stwierdziłęm, że <em>programowanie jest dla mnie bardziej interesujące</em> i
+                    zakończyłem na
+                    ten
+                    moment
+                    przygodę ze studiami.
+                </p>
+            </div>
+        </section>
+        <section class="section" id="ThirdSection">
+            <h2 class="section__header section__header--green">Zainteresowania, drogie samochody:</h2>
+            <div class="section__conteiner section__conteiner--table">
+                <table class="table">
+                    <caption class="table__tablecaption">Najdroższe samochody świata – tabela z wybranymi modelami:
+    
+                    </caption>
+                    <tr class="table__tableRow">
+                        <th class="table__tableCell table__tableHeader " scope="col">Miejsce:</th>
+                        <th class="table__tableCell table__tableHeader" scope="col">
+                            Marka samochodu: </th>
+                        <th class="table__tableCell table__tableHeader" scope="col">
+                            Model samochodu:</th>
+                        <th class="table__tableCell table__tableHeader" scope="col">
+                            Cena samochodu:</th>
+                    </tr>
+                    <tr class="table__tableRow">
+                        <th class="table__tableCell table__tableHeader" scope="row">
+                            1</th>
+                        <td class="table__tableCell">
+                            Bugatti</td>
+                        <td class="table__tableCell">
+                            La Voiture Noire</td>
+                        <td class="table__tableCell">
+                            19 mln dolarów</td>
+                    </tr>
+                    <tr class="table__tableRow">
+                        <th class="table__tableCell table__tableHeader" scope="row">
+                            2</th>
+                        <td class="table__tableCell">
+                            Rolls-Royce</td>
+                        <td class="table__tableCell">
+                            Sweptail </td>
+                        <td class="table__tableCell">
+                            13 mln dolarów</td>
+                    </tr>
+                    <tr class="table__tableRow">
+                        <th class="table__tableCell table__tableHeader" scope="row">
+                            3</th>
+                        <td class="table__tableCell">
+                            Bugatti</td>
+                        <td class="table__tableCell">
+                            Centodieci </td>
+                        <td class="table__tableCell">
+                            9 mln dolarów</td>
+                    </tr>
+    
+    
+    
+                </table>
+            </div>
+        </section>
+    
+    </main>
+
+</body>
+
+</html>

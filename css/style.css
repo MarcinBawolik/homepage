@@ -1,0 +1,30 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    font-family: 'Dancing Script', cursive;
+    margin-left: 20px;
+    background-color: rgb(229, 241, 247);
+
+}
+
+.image {
+    outline: 2px dotted black;
+    outline-offset: 1px;
+    border-radius: 10px;
+    border: 1px solid red;
+    box-shadow: 20px 21px 24px 0px rgba(253, 222, 172, 1);
+}
+
+.dark {
+    background-color: #000;
+    color: aqua;
+
+}
+
+

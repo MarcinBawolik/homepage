@@ -1,0 +1,32 @@
+.Section__header {
+    color: blueviolet;
+    text-shadow: 0px 2px 13px rgba(160, 34, 155, 1);
+    padding-top: 30px;
+    padding-bottom: 0px;
+
+}
+.Section__TextConteiner {
+    color: rgb(35, 49, 38);
+    background-color: rgb(189, 177, 177);
+    line-height: 2;
+
+}
+.Section__header--lighter {
+    color: rgb(15 173 138);
+}
+.Section__TextConteiner-2 {
+    color: beige;
+    background-color: rgb(23, 75, 41);
+}
+
+.section__header--green {
+    color: #173d07;
+    text-shadow: 10px 8px 6px rgba(23, 61, 7, 1);
+}
+
+.section__conteiner--table {
+    max-width: 1000px;
+    margin: auto;
+    overflow-x: auto;
+
+}
