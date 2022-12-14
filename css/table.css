@@ -1,4 +1,4 @@
-.table__tableCell {
+.table__cell {
     border: 1px solid rgb(5, 129, 15);
     text-align: center;
     padding: 20px;
@@ -16,12 +16,12 @@
 }
 
 
-.table__tableHeader {
+.table__header {
     background-color: rgb(26, 185, 39);
     color: rgb(0, 0, 0);
 }
 
-.table__tableCell:hover {
+.table__cell:hover {
     background-color: rgb(19, 255, 10);
 }
 
