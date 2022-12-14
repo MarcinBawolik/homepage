@@ -8,7 +8,7 @@ let Section__header = document.querySelector(".js-Section__header")
 Section__button1.addEventListener("click", () => {
     Section__header.remove();
 })
-let section__button2 = document.querySelector(".js-section__button-2")
+let section__button2 = document.querySelector(".js--button-headerremove")
 
 section__button2.addEventListener("click", () => {
     section__button2.replaceWith("super zabawa, pozdrawiam :)")

@@ -1,4 +1,4 @@
-.navigation__Links {
+.navigation__links {
     text-decoration: none;
     border-bottom-style: dotted;
     border-color: rgb(89, 0, 255);
@@ -6,7 +6,7 @@
     color: white;
      ;
 }
-.navigation__UnorderedList {
+.navigation__unorderedList {
     list-style-type: none;
     margin: 20px;
     padding: 10px;
