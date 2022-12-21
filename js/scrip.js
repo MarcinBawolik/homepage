@@ -4,7 +4,7 @@
     }
     welcome();
 
-    const onChangeBackgroundClick = () => {
+    const togleBackgroundColor = () => {
         const Change = document.querySelector(".Change")
         const dark = document.querySelector(".dark")
         const body = document.querySelector(".body")
@@ -18,7 +18,7 @@
     const init = () => {
         const button = document.querySelector(".js-button")
 
-        button.addEventListener("click", onChangeBackgroundClick)
+        button.addEventListener("click", togleBackgroundColor)
 
     }
     init()
