@@ -2,29 +2,29 @@
     const welcome = () => {
         console.log("Witam wszystkich")
     }
-    welcome();
 
-    const togleBackgroundColor = () => {
-        const Change = document.querySelector(".Change")
-        const dark = document.querySelector(".dark")
+
+    const toggleBackgroundColor = () => {
+        const themeNameElement = document.querySelector(".js-themeName")
         const body = document.querySelector(".body")
         body.classList.toggle("dark");
         if (body.classList.contains("dark")) {
-            Change.innerText = "jasny";
+            themeNameElement.innerText = "jasny";
         } else {
-            Change.innerText = "ciemny";
+            themeNameElement.innerText = "ciemny";
         }
     }
     const init = () => {
         const button = document.querySelector(".js-button")
+        button.addEventListener("click", toggleBackgroundColor)
 
-        button.addEventListener("click", togleBackgroundColor)
+        welcome();
 
     }
     init()
 
     const headerRemove = () => {
-        const Section__header = document.querySelector(".js-Section__header")
+        const Section__header = document.querySelector(".js-sectionHeader")
         Section__header.remove();
     }
     const init2 = () => {
@@ -32,14 +32,14 @@
         Section__button1.addEventListener("click", headerRemove)
     }
     init2()
-const headerReplace =  () => {
-    const section__button2 = document.querySelector(".js--button-headerremove")
-    section__button2.replaceWith("super zabawa, pozdrawiam :)")
-}
-const init3 = () => {
-    const section__button2 = document.querySelector(".js--button-headerremove")
-    section__button2.addEventListener("click", headerReplace)
+    const headerReplace = () => {
+        const section__button2 = document.querySelector(".js--removeHeaderButton")
+        section__button2.replaceWith("super zabawa, pozdrawiam :)")
+    }
+    const init3 = () => {
+        const section__button2 = document.querySelector(".js--removeHeaderButton")
+        section__button2.addEventListener("click", headerReplace)
 
-}
-init3()
+    }
+    init3()
 }
