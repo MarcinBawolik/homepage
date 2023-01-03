@@ -1,14 +1,12 @@
 .navigation__links {
-    text-decoration: none;
     border-bottom-style: dotted;
     border-color: rgb(89, 0, 255);
     border-width: 1px;
-    color: white;
-     ;
+    color: rgb(32, 175, 180);  
 }
-.navigation__unorderedList {
+.navigation__UnorderedList {
     list-style-type: none;
     margin: 20px;
     padding: 10px;
-    background-color: teal;
+    
 }
